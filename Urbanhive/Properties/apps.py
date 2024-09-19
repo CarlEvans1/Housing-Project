@@ -5,5 +5,5 @@ class PropertiesConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'Properties'
 
-     def ready(self):
-        import Housing.signals
+    def ready(self):
+         import Properties.signals

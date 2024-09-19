@@ -389,5 +389,4 @@ class DeleteCaretakerView(View):
         building = caretaker.building
 
         caretaker.delete()
-        return redirect('building-details', building_id=building.pk)from django.shortcuts import render
-
+        return redirect('building-details', building_id=building.pk)
